@@ -102,7 +102,6 @@ while play_on:
 
     for segment in snake.segments[2:]:
         if snake.head.distance(segment) < 10:
-            # play_on = False
             score.game_over("You hit the tail")
             screen.update()
             score.clear()
