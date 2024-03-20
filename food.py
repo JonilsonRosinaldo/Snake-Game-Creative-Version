@@ -8,6 +8,7 @@ class Food(Turtle):
         self.create_food()
 
     def create_food(self):
+        """Creates and dysplays the snake food on screen."""
         self.shape("turtle")
         self.color(choice(["orange", "yellow", "pink", "purple", "blue", "green", "grey", "brown"]))
         self.pu()
