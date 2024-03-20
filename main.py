@@ -111,6 +111,6 @@ while play_on:
             count_down()
             sleep = 0.07
 
-# Had a bug when screen was sleeping and snake stopped upon segment (perhaps have to fix the order the code is written)
+# Had a bug when screen was sleeping and snake stopped upon segment (perhaps have to fix the order the code is written.)
 
 screen.exitonclick()
