@@ -19,6 +19,7 @@ class ScoreBoard(Turtle):
         self.level = 0
 
     def create_score(self):
+        """Creates and displays the score on the screen."""
         self.clear()
         self.hideturtle()
         self.color("white")
