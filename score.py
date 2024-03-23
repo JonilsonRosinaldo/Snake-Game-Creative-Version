@@ -28,6 +28,7 @@ class ScoreBoard(Turtle):
         self.write(f"Score: {self.score}  High Score: {self.high_score}", font=("Sans", 20, "normal"), align="center")
 
     def add_1(self):
+        """Adds 1 point to the score."""
         self.clear()
         self.score += 1
         if self.score > self.high_score:
